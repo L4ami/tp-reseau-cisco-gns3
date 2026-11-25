@@ -1,0 +1,38 @@
+# --- Secrets (règle de base de tous mes dépôts) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+id_rsa*
+id_ed25519*
+*.kdbx
+
+# --- Images IOS Cisco : logiciels sous licence, jamais publiés ---
+*.image
+*.image.md5sum
+*.bin
+
+# --- Projet GNS3 de travail (fichiers internes, mémoire des routeurs, snapshots) ---
+TP_v2_GiocantiPaul/
+project-files/
+*.gns3snapshot
+*.gns3.backup
+
+# --- Notes de travail personnelles (le rendu officiel est RENDU-HackMD.md) ---
+SUIVI.md
+EN-CLAIR*.md
+FIN-DU-TP.md
+NOTES-APP.md
+
+# --- Fichiers système Windows ---
+Thumbs.db
+desktop.ini
+
+# --- Supports privés du formateur (capture Teams), non publiés ---
+ressources/
+
+# --- Corrigé du formateur (réservé à l enseignant), jamais publié ---
+*corrige-PRIVE*.md
