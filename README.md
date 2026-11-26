@@ -18,6 +18,7 @@ Tous les TP utilisent **le même projet GNS3**, qui évolue d'un TP à l'autre a
 |---|---|---|---|---|
 | 1 | Configuration de base Cisco | 4 routeurs + 2 switchs : nom, domaine, bannière, adressage IP, passerelles, comptes locaux, SSH v2, trunk 802.1Q | ✅ Terminé | [`tp1-config-base-cisco/`](tp1-config-base-cisco/) |
 | 2 | Spanning Tree (STP / RSTP) | Triangle de 3 switchs : élection du pont racine, rôles des ports, coût, PortFast, BPDU Guard, pannes | ✅ Terminé | [`tp2-spanning-tree/`](tp2-spanning-tree/) |
+| 3 | Switching avancé (PNETLab) | 3 switchs IOL L2 : STP/RSTP, Rapid PVST+ par VLAN, EtherChannel LACP, port-security, BPDU/Root Guard, DHCP Snooping | ✅ | [`tp3-switching-avance/`](tp3-switching-avance/) |
 
 Chaque dossier contient le rendu (`RENDU-HackMD.md`), les captures d'écran qui servent de preuves et, quand l'énoncé le demande, les configurations exportées.
 
